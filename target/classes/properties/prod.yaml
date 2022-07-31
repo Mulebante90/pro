@@ -1,0 +1,8 @@
+instaceId: "434376567"
+
+http:
+   host: "localhost"
+   port: "8081"
+   path: "/test"
+  
+message: "prod yaml file"

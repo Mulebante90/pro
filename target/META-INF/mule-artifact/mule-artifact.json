@@ -1,0 +1,29 @@
+{
+  "configs": [
+    "config/config.xml",
+    "project_format.xml"
+  ],
+  "secureProperties": [],
+  "redeploymentEnabled": true,
+  "name": "com.mycompany:project_format:1.0.0-SNAPSHOT",
+  "minMuleVersion": "4.4.0",
+  "requiredProduct": "MULE",
+  "classLoaderModelLoaderDescriptor": {
+    "id": "mule",
+    "attributes": {
+      "exportedPackages": [],
+      "exportedResources": [
+        "config/config.xml",
+        "log4j2.xml",
+        "project_format.xml",
+        "properties/dev.yaml",
+        "properties/prod.yaml",
+        "properties/Test.yaml"
+      ]
+    }
+  },
+  "bundleDescriptorLoader": {
+    "id": "mule",
+    "attributes": {}
+  }
+}
